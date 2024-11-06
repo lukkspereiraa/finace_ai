@@ -1,5 +1,8 @@
-const Home = () => {
-  return (<h1 className="text-red-500 p-5">helle word</h1>);
-}
+import Image from "next/image";
+import { Button } from "./_components/ui/button";
 
-export default Home;
+export default function Home() {
+  return (
+    <Button>Hallo word</Button>
+  );
+}
